@@ -14,7 +14,7 @@
     </header>
 
     <main>
-        <form id="survey-form" method="get" action="">
+        <form id="survey-form" method="POST" action="/">
             <p>
                 <label for="pregnancy" class="form__label">Number of Time Pregnant</label>
                 <input type="number" id="pregnancy" name="pregnancy" class="form__input" required>
@@ -45,6 +45,7 @@
             </p>
             <p>
                 <button id="Submit">Submit</button>
+                {{ans}}
             </p>
         </form>
     </main>
