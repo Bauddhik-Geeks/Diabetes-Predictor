@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-18">
+    <meta name="author" content="Shivashish">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Diabetes Predictor Form</h1>
+    </header>
+
+    <main>
+        <form id="survey-form" method="get" action="">
+            <p>
+                <label for="pregnancy" class="form__label">Number of Time Pregnant</label>
+                <input type="number" id="pregnancy" name="pregnancy" class="form__input" required>
+            </p>
+            <p>
+                <label for="blood-pressure" class="form__label">Diastolic Blood Pressure</label>
+                <input type="number" name="blood-pressure" id="blood-pressure" class="form__input" required>
+            </p>
+            <p>
+                <label for="skin-fold-thickness" class="form__label">Tricep Skin Fold Thickness</label>
+                <input type="number" name="skin-fold-thickness" id="skin-fold-thickness" class="form__input" required>
+            </p>
+            <p>
+                <label for="serum-insulin" class="form__label">2-Hour Serum Insulin</label>
+                <input type="number" name="serum-insulin" id="serum-insulin" class="form__input" required>
+            </p>
+            <p>
+                <label for="bmi" class="form__label">Body mass index</label>
+                <input type="number" name="bmi" id="bmi" class="form__input" required>
+            </p>
+            <p>
+                <label for="DPF" class="form__label">Diabetes Pedigree Function</label>
+                <input type="number" name="DPF" id="DPF" class="form__input" required>
+            </p>
+            <p>
+                <label for="age" class="form__label">Age</label>
+                <input type="number" name="age" id="age" class="form__input" required>
+            </p>
+            <p>
+                <button id="Submit">Submit</button>
+            </p>
+        </form>
+    </main>
+</body>
