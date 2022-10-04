@@ -13,14 +13,23 @@ header {
     margin: 1rem auto;
 }
 
+body {
+background-image: url(./bgimg.jpg);
+font-family: 'Poppins', sans-serif;
+color: white;
+}
 
 main {
     width: 60vw;
-    background-color: #ba5fe0;
+    background-color: #55356396;
     margin: 0 auto;
     font-size: 1.3rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+}
+
+p {
+margin: 0 15px;
 }
 
 .form__label {
@@ -39,6 +48,7 @@ input[type=number] {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     outline: none;
+    height: 90%;
 }
 
 input[type=number]:focus {
@@ -47,12 +57,12 @@ input[type=number]:focus {
 
 button {
     width: 100%;
-    height: 4vw;
+    height: 3vw;
     margin: 2rem auto;
-    background-color: rgb(113, 177, 202);
+    background-color: rgb(119, 35, 145);
     font-size: 1.3rem;
     font-family: sans-serif;
-    color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
