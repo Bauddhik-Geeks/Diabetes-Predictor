@@ -26,8 +26,11 @@ It is a Deep Learning model that has been trained to predict whether or not a pa
 ## How to contribute?
 - Fork the repository
 - Create new Branch
+- Create a new virtual environment
+- Download the requirements for the project 
 - Add Feature
 - Create Pull Request
+
 
 
 
